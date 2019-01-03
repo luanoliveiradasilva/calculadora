@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stilo.css" />
+    
+</head>
+<body>
+
+    <fieldset>
+        <p id="res"></p> 
+        <input type="text" id="valor" name="Num"><br><br>
+
+        <button name="clean" onclick="cleanDados(this.name)">C</button>
+        <button name="CancelE" onclick="cleanDados(this.name)">CE</button>        
+        <button name="cleanV" onclick="cleanDados(this.name)">«</button><br><br>
+        <button name="Dividir" class="operador" value="÷" onclick="dividir(this.name, this.value)">÷</button>
+
+        <button name="um" value="1" onclick="num(this.value)">1</button>
+        <button name="dois" value="2" onclick="num(this.value)">2</button>
+        <button name="tres" value="3" onclick="num(this.value)">3</button><br><br>
+        <button name="Multiplicar" class="operador" value="*" onclick="multiplicar(this.name, this.value)">*</button>
+
+        <button name="quatro" value="4" onclick="num(this.value)">4</button>
+        <button name="cinco" value="5" onclick="num(this.value)">5</button>
+        <button name="seis" value="6" onclick="num(this.value)">6</button><br><br>        
+        <button name="Subtrair" class="operador" value="-" onclick="subtrair(this.name, this.value)">-</button>
+
+        <button name="sete" value="7" onclick="num(this.value)">7</button>
+        <button name="oito" value="8" onclick="num(this.value)">8</button>
+        <button name="nove" value="9" onclick="num(this.value)">9</button><br><br>
+        <button name="Somar"  class="operador" value="+" value="+" onclick="soma(this.name, this.value)">+</button>
+
+        <button name="negativo" onclick="transformaValor()">±</button><!--Transforma o valor digitado em negativo-->
+        <button name="zero" value="0" onclick="num(this.value)">0</button>
+        <button name="virgula" >,</button><br><br><!--Incrementa uma vírgula no valor.-->
+        <button name="Igualdade" class="igualdade" onclick="igualdade()">=</button>
+
+    </fieldset>
+          
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

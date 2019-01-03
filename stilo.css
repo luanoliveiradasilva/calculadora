@@ -1,0 +1,42 @@
+fieldset{
+    width: 200px;
+    height: 100%;
+    border: solid 1px #8080ff;
+    box-shadow: 5px 5px 18px #8080ff;
+    background-color: #e6e6e6;
+}
+
+input{
+    width: 300px;
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: none;
+    background-color: #e6e6e6;
+    font-weight: bold;
+}
+
+button.operador{
+    width: 60px;
+    height: 40px;
+    float: right;
+    margin-right: 47px;
+    margin-top: -58px;
+    
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button.igualdade{
+    width: 60px;
+    height: 80px;
+    float: right;
+    margin-top: -58px;
+    margin-right: 47px;
+}
