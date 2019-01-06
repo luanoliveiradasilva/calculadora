@@ -5,20 +5,17 @@ let operacao;
 let valorNum;
 let operadorSinal;
 
-//Função para os números.
+//Função para os números. inserir os valores.
 function num(valor) {
         valorNum = valor;
-        /*
-        Concatenando os valores ao clicar no botão. Executando get do valor mais ele mesmo, como se 
-        fosse, valorA+=valorB;
-        */
-        document.getElementById("valor").value += valorNum;
-        //O segundo valor que está sendo inserido, está sendo valor a parte.
-
+        document.getElementById("valor").value += valorNum;//Inserir mais de um valor no mesmo texto.
 }
 
+//Valor positivo é alterado para negativo.
 function transformaValor(){
-        document.getElementById("valor").value = parseInt(valorNum * -1);        
+        
+        valorUm = document.getElementById("valor").value;
+        document.getElementById("valor").value = innerHTML =- valorUm;//valorNum * -1;
 }
 
 //Limpar os dados, valores digitados.
@@ -30,7 +27,12 @@ function cleanDados(limpar) {
         }else if(limpa == "CancelE"){
                 document.getElementById("valor").value = innerHTML = "";
         }else{
-                document.getElementById("valor").value -= valorNum;//Incluir botão para limpar o ultimo valor, ao invés de apagar tudo.    
+                valorUm = document.getElementById("valor").value;
+                document.getElementById("valor").value = innerHTML = valorUm.slice(0, -1);
+                /*O método slice () retorna os elementos selecionados em uma matriz, 
+                como um novo objeto de matriz.
+                O método slice () seleciona os elementos que começam no argumento de início fornecido e termina em,
+                mas não inclui , o argumento de fim especificado .*/        
         }
 } 
 
