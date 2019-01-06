@@ -78,22 +78,26 @@ function igualdade() {
         switch (operacao) {
                 case "Somar":
                         var soma = parseInt(valorUm)+parseInt(valorDois);
-                        document.getElementById("res").innerHTML = soma;
+                        document.getElementById("res").innerHTML = "";
+                        document.getElementById("valor").value = innerHTML = soma;
                         break;
 
                 case "Subtrair":
                         var subtrair = parseInt(valorUm) - parseInt(valorDois);
-                        document.getElementById("res").innerHTML = subtrair;
+                        document.getElementById("res").innerHTML = "";
+                        document.getElementById("valor").value = innerHTML = subtrair;
                         break;
 
                 case "Multiplicar":
                         var multiplicar = parseInt(valorUm)*parseInt(valorDois);
-                        document.getElementById("res").innerHTML = multiplicar;
+                        document.getElementById("res").innerHTML = "";
+                        document.getElementById("valor").value = innerHTML = multiplicar;
                         break;
 
                 case "Dividir":
                         var dividir = parseFloat(valorUm) / parseFloat(valorDois);
-                        document.getElementById("res").innerHTML = dividir;
+                        document.getElementById("res").innerHTML = "";
+                        document.getElementById("valor").value = innerHTML = dividir;
                         break;
         
                 default:
