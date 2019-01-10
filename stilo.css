@@ -1,9 +1,9 @@
 fieldset{
-    border: solid 1px #8080ff;
+    border: none;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    box-shadow: 5px 5px 18px #8080ff;
-    background-color: #e6e6e6;
+    box-shadow: 5px 5px 18px #1C2029;
+    background-color: #282C35;
     margin: 0;
 	position: absolute;
 	top: 50%;
@@ -12,6 +12,7 @@ fieldset{
     transform: translate(-50%, -50%);
     padding-bottom: 15px;
     padding-left: 20px;
+    border-radius: 5px;
 }
 
 .container{
@@ -32,7 +33,7 @@ fieldset{
 
 
 body{
-    background-color: #e6e6e6;
+    background-color:	#3E4A56;
 
 }
 
@@ -81,12 +82,12 @@ p{
 }
 
 .operador{
-    background-color: #1ed760 !important;
-    box-shadow: 0 9px #1cca59 !important;
+    background-color: #00bf8f !important;
+    box-shadow: 0 9px #00b386 !important;
 }
 
 .operador:active {
-	box-shadow: 0 2px #1cca59 !important;
+	box-shadow: 0 2px #00b386 !important;
 }
 
 .numerico{
@@ -99,8 +100,8 @@ p{
 }
 
 .botoesLimpar{
-    background-color: #222222 !important;
-	box-shadow: 0 9px #000000 !important;
+    background-color:#eb4924 !important;
+	box-shadow: 0 9px #e93c16 !important;
 }
 
 .botoesLimpar:active {
